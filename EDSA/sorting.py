@@ -49,13 +49,11 @@ def merge_sort(items):
     list
         list of elements in items in ascending order
     """
-    
     def merge(left, right):
-    '''
-    Merge sort merging function.
+        '''
+        Merge sort merging function.
         
-        
-    '''
+        '''
 
         left_index, right_index = 0, 0
         result = []
