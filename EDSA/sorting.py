@@ -69,13 +69,13 @@ def merge_sort(items):
         result += right[right_index:]
         return result    
 
-    if len(array) <= 1:  # base case
-        return array
+    if len(items) <= 1:  # base case
+        return items
 
     # divide array in half and merge sort recursively
-    half = len(array) // 2
-    left = merge_sort(array[:half])
-    right = merge_sort(array[half:])
+    half = len(items) // 2
+    left = merge_sort(items[:half])
+    right = merge_sort(items[half:])
 
     return merge(left, right)
 
