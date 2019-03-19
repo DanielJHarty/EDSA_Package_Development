@@ -89,7 +89,7 @@ def factorial(n):
     elif n == 1:
         return n # base case 2
     
-    elif:
+    else:
         return n*factorial(n-1) # recurse the factorial of the term minus one times the term itself
 
 
